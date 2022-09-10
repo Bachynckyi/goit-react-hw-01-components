@@ -1,0 +1,30 @@
+.item {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.avatar {
+    margin: 0px 0px 0px 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.name {
+    margin: 0px 0px 0px 10px;
+}
+
+
+.status {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}

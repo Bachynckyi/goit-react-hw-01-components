@@ -19,7 +19,8 @@ export const App = () => {
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
-        color: '#010101'
+        color: '#010101',
+        backgroundColor: '#f5f4fa',
       }}
     >
       <Profile
@@ -30,7 +31,7 @@ export const App = () => {
       stats={user.stats}
       />
 
-      <Statistics title="Upload stats" stats={data} />
+      <Statistics title="UPLOAD STATS" stats={data} />
       <Statistics stats={data} />
 
       <Friends friends={friends} />
